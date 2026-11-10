@@ -2,16 +2,16 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LINQ_gyakorlas
+namespace databaseCsharp
 {
-    internal class Student
+    public class Diak
     {
         private string name;
         private int age;
         private string classId;
         private double avg;
 
-        public Student(string name, int age, string classId, double avg)
+        public Diak(string name, int age, string classId, double avg)
         {
             Name = name;
             Age = age;

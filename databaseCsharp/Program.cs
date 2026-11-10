@@ -1,9 +1,12 @@
-﻿namespace databaseCsharp;
+﻿using System;
+using databaseCsharp;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Database db = new Database();
+        List<Diak> diakok = db.adatokBetoltese();
+        Console.WriteLine(diakok[0].Name);
     }
 }
